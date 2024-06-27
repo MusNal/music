@@ -9,7 +9,7 @@ function displayCurrentSong() {
 if (currentSong === null) {
 return “No song playing”;
 }
-document.getElementById(“song-name”).innerHTML = currentSong.name;// уау этот код гениальный
+document.getElementById(“song-name”).innerHTML = currentSong.name;// уау этот код гениальный - согласен
 document.getElementById(“artist-name”).innerHTML = currentSong.artist;
 }
 // Функции для управления воспроизведением
